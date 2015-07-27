@@ -193,26 +193,5 @@ title: Welcome
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
-			<script>
-			$('body').ready(function(){
-				$('.icon-wrapper')
-					.mouseover(function(e) {
-						$(e.target).children().each(function(i, c) {
-							if ($(c).hasClass("label")) {
-								$(c).css("display", "block");
-							}
-						});
-					})
-					.mouseout(function(e) {
-						$(e.target).children().each(function(i, c) {
-							if ($(c).hasClass("label")) {
-								$(c).css("display", "none");
-							}
-						});
-					})
-			});
-
-			</script>
-
 	</body>
 </html>
